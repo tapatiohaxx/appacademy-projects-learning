@@ -1,0 +1,12 @@
+p abbr {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 50px;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+
