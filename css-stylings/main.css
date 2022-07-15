@@ -3,7 +3,7 @@ html {
 }
 
 .header h1 {
-	display: inline;
+	display: flex;
     font-size: 50px;
     font-family: ;
     padding: ;
@@ -34,7 +34,8 @@ p {
 
 }
 
-.header logo { 
+.header logo {
+	display: flex;
 	float: left;
 	font-size: 50;
 	color: white; 
