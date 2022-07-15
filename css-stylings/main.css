@@ -1,37 +1,46 @@
-h1 {
-    font-size: ;
+html {
+	  background-color:black ;
+}
+
+.header h1 {
+	display: inline;
+    font-size: 50px;
     font-family: ;
     padding: ;
     margin: ;
     font-weight: ;
     text-decoration: ;
-    color: ;
-    background-color: ;
+    color: white;
+    background-color: black;
 }
 
 h2 {
-    font-size: ;
+    font-size: 45px;
     font-family: ;
     padding: ;
     margin: ;
     font-weight: ;
-    color: ;
-    background-color: ;
+    color: white;
+    background-color: black;
 }
 
 p {
     font-family: ;
-    font-size: ;
+    font-size: 25px;
     padding: ;
     margin: ;
-    color: ;
-    background-color: ;
+    color: white;
+    background-color: black;:w
+
 }
 
-.logo {
+.header logo { 
+	float: left;
+	font-size: 50;
+	color: white; 
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-color: white;
+	opacity: 0.65;
+    height: 50px;
+    width: 50px;
 }
