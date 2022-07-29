@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+}
+
+table th{
+    text-align: left;
+    color: white;
+    background-color: lightcoral;
+    padding: 5px, 32px, 5px, 5px;
+}
+
+table td{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 5px, 10px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: lightgray;
+}
+

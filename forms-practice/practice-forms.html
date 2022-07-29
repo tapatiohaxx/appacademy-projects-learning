@@ -1,1 +1,86 @@
 <!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Learning the Forms</title>
+  </head>
+  <body>
+    <h1> Coding Preferecnces Survey </h1>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+          <legend>Add User</legend>
+      
+          <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="first_name">
+          </div>
+      
+          <div>
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="last_name">
+          </div>
+      
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address">
+          </div>
+      
+          <div>
+            <label for="status">What's your current status?</label>
+            <select id="status" name="user_status">
+              <option value="student">Student</option>
+              <option value="instructor">Insstructor</option>
+              <option value="guest">Guest</option>
+            </select>
+          </div>
+          <div>
+          <p> choose your favorite programming language(s)</p>
+          <input type="radio" id="web" name="programming_lang" value="web">
+          <label for="webdev">HTML/CSS/JS</label>
+          <input type="radio" id="OS" name="programming_lang" value="OS">
+          <label for="OS">C++</label>
+          <input type="radio" id="backend" name="programming_lang" value="backend">
+          <label for="backend">Java</label>
+        </div>
+          <div>
+            <label for="date">Enter Today's Date</label>
+            <input type="date" id="date" name="date">
+          </div>
+      
+          <div>
+            <label for="comments">Enter any commnets (Optional)</label>
+            <textarea id="comments" name="bio"></textarea>
+          </div>
+      
+          <div>
+            <button type="submit">SUBMIT</button>
+          </div>
+      
+        </fieldset>
+      </form>
+
+      <table>
+         <thead> My first table </thead>
+         <tbody>
+          <tr> 
+            <th><b>first</b></th>
+            <th>second</th>
+            <th>third</th>
+            <th>fourht</th>
+        </tr>
+        <tr> 
+          <td>first</td>
+          <td>second</td>
+          <td>third</td>
+          <td>fourht</td>
+      </tr>
+      <tr> 
+        <td>first</td>
+        <td>second</td>
+        <td>third</td>
+        <td>fourht</td>
+    </tr>
+         </tbody>
+      </table>
+  </body>
+</html>
